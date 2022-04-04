@@ -1,0 +1,6 @@
+runtime: nodejs16 # specify the runtime environment on google
+# service: spanish-greeter # name of the service we are creating
+instance_class: F1
+automatic_scaling:
+    max_instances: 2
+    min_instances: 1

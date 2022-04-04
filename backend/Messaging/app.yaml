@@ -1,0 +1,8 @@
+runtime: nodejs16 # specify the runtime environment on google
+service: messaging-service # name of the service we are creating
+instance_class: F1
+automatic_scaling:
+    max_instances: 2
+    min_instances: 1
+
+service_account: datastore-user@renwick-wedding-app.iam.gserviceaccount.com
